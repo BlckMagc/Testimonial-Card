@@ -1,0 +1,107 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom right, #f9fafb, #d2d6d8);
+}
+
+.card-container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 16px;
+  box-shadow: 0 4px 6px black;
+  width: 25vw;
+  height: 30vh;
+  border-radius: 16px;
+}
+
+.profile-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 25px;
+}
+
+.profile-picture {
+  width: 80px;
+  height: auto;
+  object-fit: cover;
+}
+
+
+
+h2 {
+  color: #171717;
+  
+}
+
+h3, p{
+  color: #525252;
+  margin-top: -10px;
+}
+
+p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+
+
+@media (max-width: 1024px) {
+  .card-container {
+    width: 50vw;
+    height: 25vh;
+  }
+}
+
+@media  (max-width: 430px){
+  .card-container {
+    width: 80vw;
+    padding: 16px;
+  }
+
+  .profile-header {
+    gap: 15px;
+    margin-top: -30px;
+  }
+
+  p {
+    font-size: .9rem;
+  }
+}
+
+
+
+body {
+  margin: 0;
+  font-family: "Noto Sans", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  min-height: 100vh;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.credits {
+  color: #777;
+  position: fixed;
+  bottom: 24px;
+  left: 24px;
+  font-size: 11px;
+  text-align: center;
+}
+
+.credits a {
+  color: #000;
+  font-weight: bold;
+}
