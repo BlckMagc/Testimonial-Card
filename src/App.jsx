@@ -10,8 +10,8 @@ function App() {
     <div className="profile-header">
       <img src={profPicture} alt="Profile" className="profile-picture" />
       <div className="profile-text">
-        <h2 className="name">Sara Dolce</h2>
-        <h3 className="userName">@saradole</h3>
+        <h2 className="name">Sarah Dole</h2>
+        <h3 className="userName">@sarahdole</h3>
       </div>
     </div>
         <p className="status">
